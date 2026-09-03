@@ -1,0 +1,232 @@
+/* General Page Style */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: #5b3a29;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #2f241f;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4c542;
+}
+
+
+/* Home Page */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #d8c3a5;
+}
+
+.hero h2 {
+    font-size: 35px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+    background-color: #5b3a29;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #8b5e3c;
+}
+
+
+/* Content */
+
+.content {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.content h2 {
+    color: #5b3a29;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+
+/* Collection Cards */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 210px;
+    padding: 20px;
+    box-shadow: 0 2px 8px gray;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #5b3a29;
+}
+
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    box-shadow: 0 2px 8px gray;
+    border-radius: 5px;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.gallery-card h3 {
+    color: #5b3a29;
+}
+
+
+/* Exhibition */
+
+.exhibition {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #5b3a29;
+}
+
+.exhibition h3 {
+    color: #5b3a29;
+}
+
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #5b3a29;
+    color: white;
+}
+
+
+/* Contact Form */
+
+form {
+    background-color: white;
+    padding: 25px;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #5b3a29;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8b5e3c;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #2f241f;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    margin-top: 7%;
+}

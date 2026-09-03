@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login & Registration</title>
+</head>
+<body>
+
+    <!-- Login -->
+    <div id="login">
+        <h2>Login</h2>
+
+        <form>
+            <label>Username:</label>
+            <input type="text" name="username">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password">
+            <br><br>
+
+            <input type="submit" value="Login">
+        </form>
+
+        <p>New user? 
+            <a href="#" onclick="showRegister()">Register</a>
+        </p>
+    </div>
+
+
+    <!-- Registration -->
+    <div id="register" style="display:none;">
+        <h2>Registration</h2>
+
+        <form>
+            <label>Username:</label>
+            <input type="text" name="username">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password">
+            <br><br>
+
+            <input type="submit" value="Register">
+        </form>
+
+        <p>Already have an account?
+            <a href="#" onclick="showLogin()">Login</a>
+        </p>
+    </div>
+
+
+    <script>
+        function showRegister() {
+            document.getElementById("login").style.display = "none";
+            document.getElementById("register").style.display = "block";
+        }
+
+        function showLogin() {
+            document.getElementById("register").style.display = "none";
+            document.getElementById("login").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
