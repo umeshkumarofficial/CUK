@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="700" viewBox="0 0 500 700">
+    <rect width="500" height="700" rx="10" fill="hsl(47,55%,35%)"/>
+    <rect x="28" y="28" width="444" height="644" rx="6" fill="none" stroke="white" stroke-opacity=".45" stroke-width="3"/>
+    <text x="50%" y="100" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">FICTION</text>
+    <text x="50%" y="350" text-anchor="middle" fill="white" font-family="Georgia" font-size="42" font-weight="bold">
+      <tspan x="50%" dy="-0">THE</tspan>
+      <tspan x="50%" dy="52">ALCHEMIST</tspan>
+    </text>
+    <line x1="100" y1="535" x2="400" y2="535" stroke="white" stroke-opacity=".7" stroke-width="2"/>
+    <text x="50%" y="585" text-anchor="middle" fill="white" font-family="Arial" font-size="22">Paulo Coelho</text>
+    <text x="50%" y="635" text-anchor="middle" fill="white" font-family="Arial" font-size="16">BOOKHUB EDITION</text>
+    </svg>

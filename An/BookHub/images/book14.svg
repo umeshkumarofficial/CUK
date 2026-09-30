@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="420">
+<rect width="300" height="420" fill="#4b3f72"/>
+<rect x="15" y="15" width="270" height="390" fill="#66558f"/>
+<text x="150" y="55" text-anchor="middle" font-size="16" font-family="Arial" fill="white">BOOKHUB</text>
+<text x="150" y="280" text-anchor="middle" font-size="22" font-family="Arial" font-weight="bold" fill="white">WINGS OF FIRE</text>
+<line x1="65" y1="350" x2="235" y2="350" stroke="white"/>
+<text x="150" y="380" text-anchor="middle" font-size="14" font-family="Arial" fill="white">A.P.J. Abdul Kalam</text>
+</svg>
